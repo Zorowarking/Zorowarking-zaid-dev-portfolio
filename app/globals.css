@@ -102,9 +102,9 @@ body {
     pointer-events: none;
   }
 
-  button {
-    @apply active:outline-none;
-  }
+    button:active {
+      outline: none;
+    }
 }
 
 @layer utilities {
